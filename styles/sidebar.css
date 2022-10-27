@@ -1,0 +1,59 @@
+#sidebar {
+    height: 80px;
+    width: 100%;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: white;
+    z-index: 100;
+}
+
+#center-container-sidebar {
+    height: 100%;
+    width: 1300px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    white-space: nowrap;
+}
+
+#center-left-container-sidebar {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#center-left-container-sidebar div {
+    margin-left: 15px;
+}
+
+#pw-logo {
+    height: 42px;
+}
+
+.nav-button:hover {
+    cursor: pointer;
+    color: #5a4bda;
+}
+
+#nav-button-box {
+    background-color: #5a4bda;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 14px;
+    border-radius: 8px;
+}
+
+#nav-button-box:hover {
+    cursor: pointer;
+}
+
+@media (max-width: 1315px) {
+
+    #center-container-sidebar {
+        width: 900px;
+    }
+}
